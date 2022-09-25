@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/AkshanshChauhan/realworldreactwebsite/static/css/main.6c0fb4ac.css",
+    "main.js": "/AkshanshChauhan/realworldreactwebsite/static/js/main.43d11414.js",
+    "static/js/787.ea3d082d.chunk.js": "/AkshanshChauhan/realworldreactwebsite/static/js/787.ea3d082d.chunk.js",
+    "static/media/background3.svg": "/AkshanshChauhan/realworldreactwebsite/static/media/background3.1c7239be3b33bc22c8c9.svg",
+    "static/media/background6.svg": "/AkshanshChauhan/realworldreactwebsite/static/media/background6.203c1c0b195f31f7ca79.svg",
+    "static/media/background7.svg": "/AkshanshChauhan/realworldreactwebsite/static/media/background7.bbc484615285c324fe5e.svg",
+    "static/media/background4.svg": "/AkshanshChauhan/realworldreactwebsite/static/media/background4.804760a7518a36911b6d.svg",
+    "static/media/logo2.svg": "/AkshanshChauhan/realworldreactwebsite/static/media/logo2.0047f443330bd9547aa871e66ba51c49.svg",
+    "static/media/logo.svg": "/AkshanshChauhan/realworldreactwebsite/static/media/logo.bd3c15c754eee77606b6155daea4a999.svg",
+    "static/media/person1.svg": "/AkshanshChauhan/realworldreactwebsite/static/media/person1.288c53a5d30d26f9c0ae.svg",
+    "static/media/location.svg": "/AkshanshChauhan/realworldreactwebsite/static/media/location.170b3462eeaf32113105c8004208ad5b.svg",
+    "static/media/homepage.svg": "/AkshanshChauhan/realworldreactwebsite/static/media/homepage.7e9dfdc4049817ed1594.svg",
+    "static/media/cardbg1.svg": "/AkshanshChauhan/realworldreactwebsite/static/media/cardbg1.913f932b15821c4da762.svg",
+    "static/media/connect.svg": "/AkshanshChauhan/realworldreactwebsite/static/media/connect.c945e4c9df03d0427fcf0e1e4e5e0fea.svg",
+    "static/media/idea.svg": "/AkshanshChauhan/realworldreactwebsite/static/media/idea.da2c741035eac0505d8f981c9d20215e.svg",
+    "static/media/web.svg": "/AkshanshChauhan/realworldreactwebsite/static/media/web.6297d3fc05d141f83220978a8dc7bc5e.svg",
+    "static/media/icon3.svg": "/AkshanshChauhan/realworldreactwebsite/static/media/icon3.d47dd9cd69c2a30d015bfd6dcab9eacf.svg",
+    "static/media/icon4.svg": "/AkshanshChauhan/realworldreactwebsite/static/media/icon4.2f860b1e3d0ea36d1ff7d6e96214a631.svg",
+    "static/media/icon1.svg": "/AkshanshChauhan/realworldreactwebsite/static/media/icon1.de281119eb049b757b7901f363ed0f7c.svg",
+    "static/media/icon2.svg": "/AkshanshChauhan/realworldreactwebsite/static/media/icon2.1c5243f54580d9e6879dcde0e58b1f01.svg",
+    "static/media/light.svg": "/AkshanshChauhan/realworldreactwebsite/static/media/light.0e8be614e45247f7046bf76b4fb9a32b.svg",
+    "index.html": "/AkshanshChauhan/realworldreactwebsite/index.html",
+    "main.6c0fb4ac.css.map": "/AkshanshChauhan/realworldreactwebsite/static/css/main.6c0fb4ac.css.map",
+    "main.43d11414.js.map": "/AkshanshChauhan/realworldreactwebsite/static/js/main.43d11414.js.map",
+    "787.ea3d082d.chunk.js.map": "/AkshanshChauhan/realworldreactwebsite/static/js/787.ea3d082d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c0fb4ac.css",
+    "static/js/main.43d11414.js"
+  ]
+}
