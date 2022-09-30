@@ -1,0 +1,337 @@
+.signupbg {
+    padding: 10vw;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.60);
+    top: 0px;
+    width: calc(80vw - 17px);
+    position: absolute;
+
+    .signup {
+        width: 30vw;
+        padding: 3vw;
+        background-color: rgb(255, 255, 255);
+        display: grid;
+        gap: 20px;
+        border-radius: 10px;
+
+        .cross {
+            width: min-content;
+            height: min-content;
+            padding: 10px;
+            transform: scaleX(130%);
+            cursor: pointer;
+            justify-self: right;
+        }
+
+        .logo {
+            width: 200px;
+            height: 50px;
+            background-image: url(../../ximg/logo3.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            justify-self: center;
+        }
+
+        .small {
+            font-size: x-large;
+            text-align: center;
+        }
+
+        input[type="text"] {
+            padding: 10px 20px;
+            outline: 1px solid #B0B0B0;
+            border-radius: 20px;
+        }
+
+        .chk {
+            display: flex;
+            gap: 10px;
+            justify-self: center;
+            color:#1492E6;
+        }
+
+        a {
+            color:black;
+            justify-self: center;
+        }
+
+        .joinas {
+            font-weight: 700;
+            font-size: large;
+            text-align: center;
+        }
+
+        .btn1 {
+            padding: 10px;
+            color: #1C2942;
+            border: 1px solid #CFCFCF;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        .btn2 {
+            padding: 10px;
+            background-color: #1C2942;
+            color: white;
+            text-align: center;
+            border-radius: 20px;
+        }
+    }
+
+}
+
+#signup2 {
+    display: none;
+
+    .signup {
+        
+        .title {
+            font-weight: 600;
+        }
+
+        .innerbox {
+            border: 1px solid #CFCFCF;
+            border-radius: 10px;
+            padding: 20px;
+            display: grid;
+            gap: 10px;
+        }
+
+        .sub {
+            color: #656565;
+        }
+
+        .inputs {
+            margin-top: 20px;
+            display: grid;
+            gap: 10px;
+
+            .place {
+                display: flex;
+                color: #3d3d3d;
+
+                .comp {
+                    color: red;
+                }
+            }
+
+            select {
+                border: 1px solid #C3C3C3;
+                padding: 10px;
+                margin-bottom: 20px;
+                color: #1492E6;
+
+                option {
+                    padding: 10px;
+                }
+            }
+        }
+
+        .nextbtn {
+            padding: 10px 40px;
+            width: min-content;
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+    }
+}
+
+#signup3 {
+    display: none;
+
+    .signup {
+        
+        .title {
+            font-weight: 600;
+        }
+
+        .innerbox {
+            border: 1px solid #CFCFCF;
+            border-radius: 10px;
+            padding: 20px;
+            display: grid;
+            gap: 0px;
+        }
+
+        .sub {
+            color: #656565;
+        }
+
+        .inputs {
+            margin-top: 20px;
+            display: grid;
+            gap: 0px;
+            color: #3d3d3d;
+            font-size: medium;
+
+            .place {
+                display: flex;
+                color: #3d3d3d;
+
+                .comp {
+                    color: red;
+                }
+            }
+
+            .fileinput1 {
+                padding: 10px;
+                margin-bottom: 20px;
+                background-color: black;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 10px;
+                color: white;
+                gap: 10px;
+
+                option {
+                    padding: 10px;
+                }
+            }
+            .fileinput2 {
+                padding: 10px;
+                margin-bottom: 20px;
+                border: 1px solid black;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 10px;
+                gap: 10px;
+
+                option {
+                    padding: 10px;
+                }
+            }
+        }
+
+        .nextbtn {
+            padding: 10px 40px;
+            width: min-content;
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            margin: 20px 0px;
+            cursor: pointer;
+        }
+    }
+}
+
+#signup4 {
+    display: none;
+
+    .signup {
+        
+        .title {
+            font-weight: 600;
+        }
+
+        .innerbox {
+            border: 1px solid #CFCFCF;
+            border-radius: 10px;
+            padding: 20px;
+            display: grid;
+            gap: 0px;
+        }
+
+        .sub {
+            color: #656565;
+        }
+
+        .inputs {
+            margin-top: 20px;
+            display: grid;
+            gap: 0px;
+            color: #3d3d3d;
+            font-size: medium;
+            gap: 20px;
+
+
+            .place {
+                display: flex;
+                color: #3d3d3d;
+
+                .comp {
+                    color: red;
+                }
+            }
+
+            .location {
+                padding: 10px;
+                margin-bottom: 20px;
+                border: 1px solid #C0C0C0;
+                display: grid;
+                align-items: center;
+                justify-content: center;
+                border-radius: 10px;
+                gap: 10px;
+            }
+
+            .input {
+                display: flex;
+                gap: 10px;
+                font-size: smaller;
+                cursor: pointer;
+
+                .head {
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+
+#signup5 {
+    display: none;
+
+    .signup {
+        .title {
+            font-weight: 600;
+        }
+
+        .innerbox {
+            border: 1px solid #CFCFCF;
+            border-radius: 10px;
+            padding: 20px;
+            display: grid;
+            gap: 40px;
+            justify-content: center;
+
+                .input1 {
+                    justify-items: center;
+                    display: grid;
+                    gap: 20px;
+                    border: 1px solid #d4d4d4;
+                    border-radius: 10px;
+                    padding: 40px;
+                }
+
+                .input2 {
+                    justify-items: center;
+                    display: grid;
+                    gap: 20px;
+                    border: 1px solid #d4d4d4;
+                    border-radius: 10px;
+                    padding: 40px;
+
+                    img {
+                        transform: scaleX(150%);
+                    }
+                }
+        }
+
+        .nextbtn {
+            padding: 10px 40px;
+            width: fit-content;
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            margin: 20px 0px;
+            cursor: pointer;
+        }
+    }
+}

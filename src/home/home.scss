@@ -1,0 +1,586 @@
+.home {
+    display: grid;
+    z-index: 0;
+    top: 0px;
+    padding: 0px 0px;
+
+    .homebg {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        background-image: url("../ximg/homepage.svg");
+        padding: 40px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 70vh;
+        padding: 8em 40px;
+        gap: 3vw;
+        position: relative;
+
+        .bigcentertext {
+            font-size: 3.5vw;
+            font-weight: 700;
+            color: white;
+            text-align: center;
+            padding: 0px 12vw;
+            animation: star 1s ease-in-out 0s reverse;
+        }
+
+        .smallgap {
+            display: grid;
+            height: min-content;
+            gap: 10px;
+
+            .midcentertext {
+                font-size: 1.5vw;
+                font-weight: 600;
+                color: white;
+                text-align: center;
+                animation: star 1.3s ease-in-out 0s reverse;
+            }
+
+            .smallcentertext {
+                font-size: 1.2vw;
+                color: white;
+                text-align: center;
+                animation: star 1.6s ease-in-out 0s reverse;
+            }
+        }
+
+        .findco {
+            padding: 2vh 2vw;
+            background-color: white;
+            color: black;
+            width: max-content;
+            justify-self: center;
+            border-radius: 10px;
+            animation: star 2s ease-in-out 0s reverse;
+        }
+
+        .lower {
+            align-self: baseline;
+            padding: 10px;
+            color: white;
+            position: absolute;
+            bottom: 40px;
+            left: 40px;
+            font-weight: 500;
+            display: flex;
+            gap: 10px;
+        }
+    }
+
+    .three {
+        padding: 5vw;
+        display: flex;
+        gap: 10vw;
+        height: min-content;
+        justify-content: center;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.36);
+        background-color: white;
+
+        .threecard {
+            display: grid;
+            gap: 10px;
+            width: 20vw;
+
+            .head {
+                font-size: 1.5vw;
+                font-weight: 700;
+            }
+
+            .subhead {
+                font-size: 1vw;
+            }
+        }
+    }
+
+    .elevatorBox {
+        background-image: url("../ximg/background3.svg");
+        background-position: center;
+        padding: 5vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+
+        .elevatorleft {
+            display: grid;
+            width: 25vw;
+            transform: translateY(25vw);
+
+            .headelevator {
+                font-size: 3vw;
+                font-weight: 600;
+            }
+
+            .subelevator {
+                font-size: 1vw;
+            }
+        }
+
+        .elevatorright {
+            display: grid;
+            width: fit-content;
+            transform: translateX(68vw) translateY(30vw);
+            gap: 10px;
+
+            .headelevator {
+                font-size: 2.5vw;
+                font-weight: 600;
+            }
+
+            .buttonelevator {
+                background-color: black;
+                color: white;
+                border-radius: 10px;
+                padding: 1vw 2vw;
+                width: 12vw;
+                font-size: 1vw;
+                justify-self: right;
+            }
+        }
+    }
+
+    .cofounder {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        padding: 10vw 4vw;
+        gap: 3vw;
+    
+        button {
+            width: fit-content;
+            padding: 2px 2vw;
+            background-color: #2D6AD2;
+            border: 0px;
+            color: white;
+            font-weight: 600;
+            border-radius: 10px;
+            justify-self: center;
+        }
+    
+        .cofounderhead {
+            font-size: 2.1vw;
+            font-weight: 700;
+            padding: 0px 22vw;
+            text-align: center;
+        }
+    
+        .cofoundersub {
+            color: #6C6F73;
+            text-align: center;
+            padding: 0px 21vw;
+            font-size: 1vw;
+        }
+    
+        .cofoundercardbox {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-self: center;
+            align-items: center;
+            justify-content: center;
+            gap: 1vw;
+    
+            .cofoundercard {
+                max-width: 400px;
+                display: grid;
+                border-radius: 10px;
+                background-image: url("../ximg/cardbg1.svg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                gap: 100px;
+    
+                .cocardtop {
+                    display: grid;
+                    grid-auto-flow: column;
+                    padding: 1vw;
+                    height: 20px;
+    
+                    .designerbtn {
+                        background: black;
+                        padding: 10px 2vw;
+                        color: white;
+                        border-radius: 10px;
+                        width: fit-content;
+                    }
+    
+                    .connect {
+                        display: flex;
+                        border: 1px solid white;
+                        background-color: rgba(255, 255, 255, 0.456);
+                        backdrop-filter: blur(20px);
+                        align-items: center;
+                        gap: 10px;
+                        padding: 0px 1vw;
+                        padding-right: 10px;
+                        border-radius: 20px;
+                        justify-self: right;
+                        
+                        
+                        img {
+                            width: 1vw;
+                            background-color: white;
+                            padding: 10px;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+    
+                .cofounderbottom {
+                    display: grid;
+                    background-color: white;
+                    border-radius: 10px;
+                    position: relative;
+                    padding: 1vw;
+                    padding-bottom: 0px;
+    
+                    .cofounderdetails {
+                        display: flex;
+                        padding: 0px 1vw;
+                        align-items: baseline;
+                        position: absolute;
+                        top: -50px;
+    
+                        .cofounderdp {
+                            padding: 40px;
+                            border: 5px solid white;
+                            background-image: url("../ximg/person1.svg");
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            border-radius: 50%;
+                            box-shadow: 0px 0px 2px rgb(63, 63, 63);
+                        }
+    
+                        .cofoundername {
+                            font-size: x-large;
+                            font-weight: 500;
+                            display: grid;
+                            cursor: pointer;
+    
+                            .underline {
+                                width: 15px;
+                                height: 2px;
+                                background-color: black;
+                            }
+    
+                            &.cofoundername:hover {
+    
+                                .underline {
+                                    width: 100px;
+                                    height: 2px;
+                                    background-color: black;
+                                }
+                            }
+                        }
+                    }
+    
+                    .locationandidea {
+                        display: flex;
+                        margin-top: 50px;
+                        gap: 5vw;
+    
+                        .location {
+                            display: flex;
+                            gap: 10px;
+                            align-items: center;
+                        }
+    
+                        .idea {
+                            display: flex;
+                            gap: 10px;
+                            align-items: center;
+                        }
+                    }
+    
+                    .cofounderidea {
+                        margin-top: 10px;
+                        display: grid;
+                        gap: 5px;
+    
+                        .cofounderideahead {
+                            font-weight: 500;
+                            padding: 0px 10px;
+                        }
+    
+                        .cofounderideasub {
+                            padding: 0px 10px;
+                        }
+                    }
+    
+                    .cofounderideabutton {
+                        background-color: black;
+                        color: white;
+                        padding: 10px 20px;
+                        width: fit-content;
+                        justify-self: right;
+                        transform: translateX(1vw);
+                        margin-top: 20px;
+                        border-top-left-radius: 10px;
+                        border-bottom-right-radius: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .connectpg {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        gap: 2vw;
+        background-color: white;
+        padding: 4vw;
+
+
+        button {
+            width: fit-content;
+            padding: 2px 2vw;
+            background-color: #2D6AD2;
+            border: 0px;
+            color: white;
+            font-weight: 600;
+            border-radius: 10px;
+            justify-self: center;
+        }
+
+        .connecthead {
+            font-size: 2.1vw;
+            font-weight: 700;
+            padding: 0px 22vw;
+            text-align: center;
+        }
+
+        .connectsub {
+            color: #6C6F73;
+            text-align: center;
+            padding: 0px 21vw;
+            font-size: 1vw;
+        }
+
+        .connectbox {
+            display: flex;
+            gap: 12vw;
+
+            .connectleftbox {
+                display: flex;
+                gap: 10px;
+                padding: 2vw;
+    
+                .left {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+    
+                .right {
+                    display: grid;
+                    border-bottom: 1px solid #989898;
+                    padding: 30px 0px;
+                    
+                    .righthead {
+                        font-weight: 500;
+                    }
+    
+                    .rightsub {
+                        color: #989898;
+                    }
+    
+                }
+    
+                .rightnotborder {
+                    display: grid;
+                    border-bottom: 0px solid #989898;
+                    padding: 30px 0px;
+                    
+                    .righthead {
+                        font-weight: 500;
+                    }
+    
+                    .rightsub {
+                        color: #989898;
+                    }
+                }
+            }
+        }
+
+        .connectright {
+            background-color: blue;
+            width: 50vw;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url("../ximg/background4.svg");
+        }
+    }
+
+    .background5 {
+        background-image: url("../ximg/background6.svg");
+        height: 100vh;
+        width: 100%;
+        margin: 10vw 0px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        justify-self: center;
+        background-position: center;
+    }
+
+    .collaborate {
+        display: flex;
+        padding: 5vw;
+
+        .collaborateleft {
+            display: flex;
+            flex-direction: column;
+            gap: 1vw;
+
+            button {
+                width: fit-content;
+                padding: 2px 2vw;
+                background-color: #2D6AD2;
+                border: 0px;
+                color: white;
+                font-weight: 600;
+                border-radius: 10px;
+                height: fit-content;
+            }
+
+            .collaboratehead {
+                font-size: xx-large;
+                font-weight: 700;
+                margin-bottom: 20px;
+                height: fit-content;
+            }
+
+            .collaboratesub {
+                color: #6C6F73;
+                font-size: medium;
+                height: fit-content;
+            }
+        }
+
+        .collaborateright {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            .collaboraterightcard {
+                display: grid;
+                width: 18vw;
+                min-width: 200px;
+                
+                img {
+                    width: 40px;
+                    margin-bottom: 10px;
+                }
+
+                .collaboraterightcardhead {
+                    font-weight: 500;
+                }
+
+                .collaboraterightcardsub {
+                    color: #989898;
+                }
+            }
+        }
+    }
+
+    .background7 {
+        background-image: url("../ximg/background7.svg");
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        height:100vh;
+        padding: 5vw 0px 0px 0px;
+
+        .left {
+            width: 40vw;
+        }
+
+        .right {
+            display: flex;
+            flex-direction: column;
+            width: 55vw;
+            gap: 10px;
+            transform: translateY(100px);
+
+            button {
+                width: fit-content;
+                padding: 2px 2vw;
+                background-color: #2D6AD2;
+                border: 0px;
+                color: white;
+                font-weight: 600;
+                border-radius: 10px;
+            }
+
+            .bg7head {
+                font-size: 2.5vw;
+                font-weight: 700;
+            }
+
+            .bg7sub {
+                margin-top: 10px;
+                color: #989898;
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+                flex-wrap: wrap;
+
+                .pointhead {
+                    width:100%;
+
+                }
+
+                .points {
+                    width: 400px;
+                }
+            }
+
+        }
+    }
+
+    .lastpage {
+        display: flex;
+        padding: 5vw;
+        gap:50vw;
+        justify-content: center;
+        align-items: center;
+
+        button {
+            padding: 10px;
+            background-color: black;
+            height: min-content;
+            color: white;
+        }
+
+        .lastleft {
+            display: grid;
+            font-weight: 600;
+
+            .upper {
+                font-size: 2vw;
+            }
+
+            .lower {
+                font-size: 2vw;
+                color: #0086FF;
+            }
+        }
+    }
+    
+}
+
+
+@keyframes star {
+    0% {
+        transform: translateY(0vh);
+    }
+    100% {
+        transform: translateY(10vh);
+        color: rgba(255, 255, 255, 0);
+    }
+}

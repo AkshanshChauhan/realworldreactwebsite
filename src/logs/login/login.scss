@@ -1,0 +1,34 @@
+.loginsmall {
+    background-color: white;
+    display: none;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: 5vw;
+    position: absolute;
+    z-index: 100;
+    top: 15vh;
+    right: 5vw;
+
+    input {
+        padding: 10px;
+        border: 1px solid #BEBEBE;
+        border-radius: 10px;
+    }
+
+    a {
+        justify-self: center;
+        color: #676767;
+    }
+
+    button {
+        background-color: #1C2942;
+        color: white;
+        padding: 10px 40px;
+        border-radius: 10px;
+        cursor: pointer;
+        justify-self: center;
+    }
+}

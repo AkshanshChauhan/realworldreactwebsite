@@ -1,0 +1,358 @@
+%bg {
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+%btnhov {
+    button:hover {
+        border: 1px solid rgba(188, 188, 188, 0.445);
+        background-color: white;
+        color: black;
+    }
+}
+
+#aftlogin {
+    display: none;
+}
+
+.navigation {
+    @extend %bg;
+    padding: 40px 4vw;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-template-rows: min-content;
+    z-index: 10;
+    position: absolute;
+    border: 0px solid white;
+    width: calc(100% - 8vw);
+
+    .logotop {
+        width: 12vw;
+        min-width: 150px;
+    }
+
+    .navlinks {
+        display: flex;
+        gap: 20px;
+        justify-self: right;
+        align-items: center;
+
+        .message {
+            background-image: url("./navimages/message.svg");
+            padding: 15px;
+            @extend %bg;
+            background-size: contain;
+            cursor: pointer;
+        }
+
+        .user {
+            background-image: url("./navimages/user.svg");
+            border: 1px solid rgb(97, 97, 97);
+            border-radius: 100px;
+            padding: 15px;
+            @extend %bg;
+            background-size: contain;
+            cursor: pointer;
+        }
+
+        .user:hover {
+            border: 1px solid white;
+        }
+
+        .search {
+            background-image: url("./navimages/search.svg");
+            padding: 15px;
+            @extend %bg;
+            background-size: contain;
+            position: relative;
+            cursor: pointer;
+
+            .searchopt {
+                position: absolute;
+                top: 120%;
+                left: -250px;
+                padding: 20px 20px 0px 20px;
+                background-color: white;
+                border-radius: 10px;
+                display: none;
+                gap: 10px;
+
+                input[type="search"] {
+                    padding: 10px 50px;
+                    width: 400px;
+                    background-color:rgb(247, 255, 255);
+                    border: 1px solid rgb(236, 236, 236);
+                    border-radius: 10px;
+                }
+
+                .privious {
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    position: relative;
+                    padding: 20px 20px;
+                    border-bottom: 1px solid rgb(226, 226, 226);
+                    
+                    .usrimg {
+                        background-image: url("./navimages/ben.svg");
+                        @extend %bg;
+                        background-size: contain;
+                        padding: 15px;
+                    }
+
+                    .cross {
+                        transform: scaleX(140%);
+                        position: absolute;
+                        right: 20px;
+                    }
+                }
+            }
+        }
+        
+        .Link {
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+            padding: 5px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            button {
+                border: 1px solid white;
+                background-color: rgba(0, 0, 0, 0);
+                padding: 10px 30px;
+                border-radius: 50px;
+                color: white;
+                font-weight: 600;
+                cursor: pointer;
+            }
+
+            @extend %btnhov;
+
+            .web {
+                width: 25px;
+            }
+        }
+    }
+
+    .search:hover {
+        .searchopt {
+            display: grid;
+            transform: translateY(-5px);
+        }
+    }
+    
+}
+
+.rightmessagebar {
+    height: 100vw;
+    position: fixed;
+    display: none;
+    overflow: hidden;
+    width: 100vw;
+    z-index: 5;
+
+    .messagebox {
+        background-color: white;
+        width: 500px;
+        height: 100vh;
+        transform: translateX(1550px);
+        align-content: center;
+        display: flex;
+
+        .left {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 2vw;
+            padding: 10px;
+            width: fit-content;
+            height: 100vh;
+            border-right: 1px solid rgb(135, 135, 135);
+            
+            .usr:nth-child(1) {
+                background-repeat: no-repeat;
+                background-size: contain;
+                padding: 30px;
+                background-image: url("./navimages/ben.svg");
+                cursor: pointer;
+                outline: 5px solid rgb(214, 214, 214);
+                border-radius: 50px;
+            }
+
+            .usr:nth-child(2) {
+                background-repeat: no-repeat;
+                background-size: contain;
+                padding: 30px;
+                background-image: url("./navimages/jerry.svg");
+                cursor: pointer;
+            }
+
+            .usr:nth-child(3) {
+                background-repeat: no-repeat;
+                background-size: contain;
+                padding: 30px;
+                background-image: url("./navimages/sabir.svg");
+                cursor: pointer;
+            }
+        }
+
+        .right {
+            display: flex;
+            flex-direction: column;
+            width: max-content;
+            gap: 10px;
+
+            .title {
+                display: flex;
+                position: relative;
+                height: fit-content;
+                border-bottom: 1px solid rgb(209, 209, 209);
+                padding: 10px 40px;
+
+                .cross {
+                    transform: scaleX(130%);
+                    position: absolute;
+                    right: 20px;
+                    cursor: pointer;
+                }
+            }
+
+            .prfo {
+                background-color: #1C2942;
+                padding: 10px 20px;
+                height: fit-content;
+                border-radius: 50px;
+                display: flex;
+                margin: 10px 40px;
+                width: fit-content;
+
+                .name {
+                    font-weight: 600;
+                    border-right:3px solid white;
+                    color: white;
+                    padding: 0px 10px;
+                }
+
+                .workin {
+                    color: white;
+                    padding: 0px 10px;
+                }
+            }
+
+            .dpandinfo {
+                padding: 20px 40px;
+                border-top: 1px solid rgb(183, 183, 183);
+                display: grid;
+                text-align: center;
+
+                .usrdp {
+                    background-image: url("./navimages/ben.svg");
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    padding: 30px;
+                    width: min-content;
+                    justify-self: center;
+                }
+
+                .namedp {
+                    font-size: smaller;
+                    font-weight: 500;
+                }
+
+                .workindp {
+                    font-size: small;
+                }
+
+                .addressdp {
+                    font-size: x-small;
+                }
+            }
+            
+            .time {
+                display: grid;
+                    
+                .line2 {
+                    border-top: 1px solid rgb(155, 155, 155);
+                }
+
+                .day {
+                    justify-self: center;
+                    transform: translateY(-12.5px);
+                    background-color: white;
+                    padding: 0px 20px;
+                }
+
+                .msg {
+                    display: flex;
+                    align-items: flex-start;
+                    padding: 0px 40px;
+
+                    .l {
+                        .dpofsender:nth-child(1) {
+                            background-image: url("./navimages/jerry.svg");
+                            padding: 15px;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                        }
+                    }
+
+                    .r {
+
+                        .nameofsender {
+                            font-weight: 600;
+                            display: flex;
+                            gap: 5px;
+                            padding: 0px 10px;
+
+                            .time {
+                                font-size: small;
+                                font-weight: 200;
+                                color: rgb(105, 105, 105);
+                            }
+                        }
+
+                        .msgs {
+                            color: rgb(154, 154, 154);
+                            display: grid;
+                            gap: 10px;
+                            padding: 10px;
+                            padding-right: 40px;
+                        }
+                    }
+                }
+
+                .msg:nth-child(3){
+                    display: flex;
+                    align-items: flex-start;
+                    padding: 0px 40px;
+
+                    .l {
+                        .dpofsender:nth-child(1) {
+                            background-image: url("./navimages/ben.svg");
+                            padding: 15px;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                        }
+                    }
+                }
+            }
+
+            .messagesend {
+                display: flex;
+                margin: 0px auto;
+                padding: 10px;
+                gap: 10px;
+                border-top: 1px solid rgb(175, 175, 175);
+
+
+                input {
+                    width: 300px;
+                    padding: 0px 10px;
+                }
+            }
+        }
+    }
+}

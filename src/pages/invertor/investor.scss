@@ -1,0 +1,243 @@
+button {
+    padding: 5px 20px;
+    background-color: #0086FF;
+    border-radius: 20px;
+    color: white;
+    width: fit-content;
+}
+
+.cofounderpg {
+    top: 0px;
+    background-color: #F1F1F1;
+
+    .topbackground {
+        padding: 10vw;
+        background-image: url("/ximg/bgofpg2.svg");
+        background-size: cover;
+        display: grid;
+        gap: 10px;
+
+        .head {
+            font-size: 2.5vw;
+            font-weight: 600;
+            color: white;
+            animation: star 1s ease-in-out 0s reverse;
+        }
+
+        .sub {
+            font-size: 1vw;
+            color: #D5D5D5;
+            animation: star 1.5s ease-in-out 0s reverse;
+        }
+    }
+
+    .scrollablelinks {
+        display: flex;
+        gap: 10px;
+        padding: 1vw;
+        justify-content: center;
+        background-color: white;
+
+        .btn {
+            padding: 10px 30px;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btnuns {
+            padding: 10px 30px;
+            color: #A0A0A0;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btnuns:hover {
+            outline: 1px solid #A0A0A0;
+        }
+    }
+
+    .cofounder {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        padding: 4vw 4vw;
+        gap: 3vw;
+    
+        button {
+            width: fit-content;
+            padding: 2px 2vw;
+            background-color: #2D6AD2;
+            border: 0px;
+            color: white;
+            font-weight: 600;
+            border-radius: 10px;
+            justify-self: center;
+        }
+    
+        .cofounderhead {
+            font-size: 2.1vw;
+            font-weight: 700;
+            padding: 0px 22vw;
+            text-align: center;
+        }
+    
+        .cofoundersub {
+            color: #6C6F73;
+            text-align: center;
+            padding: 0px 21vw;
+            font-size: 1vw;
+        }
+    
+        .cofoundercardbox {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-self: center;
+            align-items: center;
+            justify-content: center;
+            gap: 2vw;
+    
+            .cofoundercard {
+                max-width: 400px;
+                display: grid;
+                border-radius: 10px;
+                background-image: url("../../ximg/cardbg1.svg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                gap: 100px;
+    
+                .cocardtop {
+                    display: grid;
+                    grid-auto-flow: column;
+                    padding: 1vw;
+                    height: 20px;
+    
+                    .designerbtn {
+                        background: black;
+                        padding: 10px 2vw;
+                        color: white;
+                        border-radius: 10px;
+                        width: fit-content;
+                    }
+    
+                    .connect {
+                        display: flex;
+                        border: 1px solid white;
+                        background-color: rgba(255, 255, 255, 0.456);
+                        backdrop-filter: blur(20px);
+                        align-items: center;
+                        gap: 10px;
+                        padding: 0px 5px;
+                        padding-right: 10px;
+                        border-radius: 20px;
+                        justify-self: right;
+                        
+                        
+                        img {
+                            width: 1vw;
+                            background-color: white;
+                            padding: 10px;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+    
+                .cofounderbottom {
+                    display: grid;
+                    background-color: white;
+                    border-radius: 10px;
+                    position: relative;
+                    padding: 1vw;
+                    padding-bottom: 0px;
+    
+                    .cofounderdetails {
+                        display: flex;
+                        padding: 0px 1vw;
+                        align-items: baseline;
+                        position: absolute;
+                        top: -50px;
+    
+                        .cofounderdp {
+                            padding: 40px;
+                            border: 5px solid white;
+                            background-image: url("../../ximg/person1.svg");
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            border-radius: 50%;
+                            box-shadow: 0px 0px 2px rgb(63, 63, 63);
+                        }
+    
+                        .cofoundername {
+                            font-size: x-large;
+                            font-weight: 500;
+                            display: grid;
+                            cursor: pointer;
+    
+                            .underline {
+                                width: 15px;
+                                height: 2px;
+                                background-color: black;
+                            }
+    
+                            &.cofoundername:hover {
+    
+                                .underline {
+                                    width: 100px;
+                                    height: 2px;
+                                    background-color: black;
+                                }
+                            }
+                        }
+                    }
+    
+                    .locationandidea {
+                        display: flex;
+                        margin-top: 50px;
+                        gap: 5vw;
+    
+                        .location {
+                            display: flex;
+                            gap: 10px;
+                            align-items: center;
+                        }
+    
+                        .idea {
+                            display: flex;
+                            gap: 10px;
+                            align-items: center;
+                        }
+                    }
+    
+                    .cofounderidea {
+                        margin-top: 10px;
+                        display: grid;
+                        gap: 5px;
+    
+                        .cofounderideahead {
+                            font-weight: 500;
+                            padding: 0px 10px;
+                        }
+    
+                        .cofounderideasub {
+                            padding: 0px 10px;
+                        }
+                    }
+    
+                    .cofounderideabutton {
+                        background-color: black;
+                        color: white;
+                        padding: 10px 20px;
+                        width: fit-content;
+                        justify-self: right;
+                        transform: translateX(1vw);
+                        margin-top: 20px;
+                        border-top-left-radius: 10px;
+                        border-bottom-right-radius: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
